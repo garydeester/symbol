@@ -24,9 +24,10 @@ The script generates a pandas dataframe with the following columns:\
 "lastMappingUpdate" : Last update applied to the mapping\
 "exchange" : exchange name\
 
+File is written to csv excluding all records that do not have complete naming information.
+
 # future work
 
 Add support for additional exchanges.\
-Verify mapping and add support for fiat currencies (currently not mapped).\
 Accumulate 24 hr volume data for each pair symbol.\
 
